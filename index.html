@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LimeJuice</title>
+    <link rel="icon" type="./img" href="./img/logowhite.jpg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+
+      .header {
+        padding: 80px;
+        text-align: center;
+        background: rgb(116, 22, 123);
+        color: white;
+      }
+
+      .header h1 {
+        font-size: 40px;
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+
+      .navbar a.right {
+        float: right;
+      }
+
+      .navbar a:hover {
+        background-color: rgb(20, 207, 54);
+        color: rgb(15, 253, 67);
+      }
+
+      .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+      }
+
+      .side {
+        -ms-flex: 5%;
+        flex: 5%;
+        background-color: rgb(255, 225, 225);
+        padding: 5px;
+      }
+
+      .main {
+        -ms-flex: 70%;
+        flex: 70%;
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+      }
+
+      @media screen and (max-width: 700px) {
+        .row {
+          flex-direction: column;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .navbar a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="#">Players</a>
+      <a href="#">LFS</a>
+      <a href="#" class="right">Contact</a>
+    </div>
+
+    <div class="row">
+      <div class="side">
+        <h1>Team LimeJuice</h1>
+        <img src="./img/logo.png" alt="Lime" style="height: 150px" />
+        <p>This is where all the magic happens</p>
+      </div>
+      <div class="main">
+        <h1 style="color: rgb(80, 220, 208)">Team Players</h1>
+        <h3 style="color: rgb(13, 224, 147)">Atomic Substance</h3>
+        <img src="./img/jett.jpg" alt="JETT" style="height: 180px" />
+        <p style="color: rgb(13, 224, 147)">Role- Team Captian</p>
+        <p style="color: rgb(13, 224, 147)">
+          A player with an innovative mindset who cultches the rounds through
+          difficult situations
+        </p>
+        <br />
+        <h3 style="color: rgb(13, 224, 147)">West virginia</h3>
+        <img src="./img/raze.jpg" alt="RAZE" style="height: 180px" />
+        <p style="color: rgb(13, 224, 147)">Role- Another IGL</p>
+        <p style="color: rgb(13, 224, 147)">
+          A player who grinds like Day and night if he's your oppenent u better
+          get ready to get deleted
+        </p>
+        <br />
+        <h3 style="color: rgb(13, 224, 147)">ThakurbabuRao</h3>
+        <img src="./img/sage.jpg" alt="SAGE" style="height: 180px" />
+        <p style="color: rgb(13, 224, 147)">Role- Support</p>
+        <p style="color: rgb(13, 224, 147)">
+          A player who's noob but supports the team and cultches during losing
+          time
+        </p>
+        <br />
+        <h3 style="color: rgb(13, 224, 147)">DoctorLime69</h3>
+        <img src="./img/reyna.jpg" alt="REYNA" style="height: 180px" />
+        <p style="color: rgb(13, 224, 147)">Role- Sniper</p>
+        <p style="color: rgb(13, 224, 147)">
+          Now this is a player you would think he's noob but when he get's hand
+          on operator u better start think
+        </p>
+        <br />
+        <h3 style="color: rgb(13, 224, 147)">Zeus</h3>
+        <img src="./img/omen.png" alt="OMEN" style="height: 180px" />
+        <p style="color: rgb(13, 224, 147)">Role- Unknown</p>
+        <p style="color: rgb(13, 224, 147)">Unknown</p>
+        <br />
+        <footer>
+          <p>© 2022 Team LimeJuice</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
